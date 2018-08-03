@@ -1,0 +1,18 @@
+import pandas as pd
+
+df = pd.read_csv("2011_FC.csv", encoding="ISO-8859-1")
+print(df.head())
+df = pd.read_csv("2012_FC.csv", encoding="ISO-8859-1")
+print(df.head())
+df = pd.read_csv("2013_FC.csv", encoding="ISO-8859-1")
+print(df.head())
+df = pd.read_csv("2014_FC.csv", encoding="ISO-8859-1")
+print(df.head())
+df = pd.read_csv("2015_FC.csv", encoding="ISO-8859-1")
+print(df.head())
+df = pd.read_csv("2016_FC.csv", encoding="ISO-8859-1")
+print(df.head())
+df = pd.read_csv("2017_FC.csv", encoding="ISO-8859-1")
+print(df.head())
+df = pd.read_csv("2017_EMC.csv", encoding="ISO-8859-1")
+print(df.head())
